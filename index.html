@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script async src="https://arc.io/widget.min.js#HMV4N83v"></script>
+
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QY7QY4SE6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5QY7QY4SE6');
+        </script>
+
+        <title>VPN Cred Adder ONC</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- JS -->
+        <script src="index.js"></script>
+    </head>
+    <body error="false">
+        <h1>VPN Cred Adder ONC</h1>
+        <p>Add credentials (username and password) to an ONC file for Open VPN.</p>
+
+        <div id="form-area">
+            <label for="oncfile">Upload ONC file here:</label>
+            <input id="oncfile" name="oncfile" type="file" accept=".onc,application/x-onc">
+
+            <label for="username">Username:</label>
+            <input id="username" name="username" type="text" placeholder="ldfkjaliuehkjcabkmxhbgf">
+
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" placeholder="laihrefijkhjgakjsdgfoiuyewgf">
+
+            <input id="button" name="button" type="button" value="Generate">
+
+            <br class="error">
+            <textarea class="error" rows="10" cols="50" id="error" disabled>Hi</textarea>
+            <a id="download" style="display: none;">Download File</a>
+        </div>
+
+        <section id="instructions">
+            <h2>Instructions</h2>
+            <ul>
+                <li>Upload your existing <strong>.onc</strong> file.</li>
+                <li>Enter your VPN <strong>username</strong> and <strong>password</strong>.</li>
+                <li>Click <strong>Generate</strong> to create a new ONC file with credentials embedded.</li>
+                <li>Once generated, click the download link to save your updated ONC file.</li>
+                <li>https://account.protonvpn.com/signup
+
+
+https://spacesaver.github.io/VPNCredAdderONC/
+
+
+https://drive.google.com/file/d/1Mpq7KjfDlAEq8nVKk9YBpkMf6zLbZJN2/view?usp=sharing
+
+
+chrome://network/#general 
+
+
+chrome://network/#select 
+
+
+Tutorial:  https://youtu.be/bQ8EP48zHCY<li>
+            </ul>
+        </section>
+    </body>
+</html>
