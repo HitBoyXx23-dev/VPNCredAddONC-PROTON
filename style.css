@@ -1,0 +1,115 @@
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0a0a0f, #0d0221, #19002e);
+    color: #e0e0ff;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #bb86fc;
+    text-shadow: 0 0 10px rgba(187,134,252,0.6);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #bdbdfd;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+label {
+    font-weight: bold;
+    color: #c4b5fd;
+}
+
+input, textarea {
+    background-color: #1b1030;
+    border: 1px solid #4a0072;
+    border-radius: 6px;
+    color: #e0dfff;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    font-family: 'Courier New', monospace;
+}
+
+input::placeholder {
+    color: #8476a1;
+}
+
+input[type="button"] {
+    background: #4a0072;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 200px;
+}
+
+input[type="button"]:hover {
+    background: #7b1fa2;
+}
+
+.error {
+    color: #ff6666;
+    display: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body[error="true"] .error {
+    display: inline;
+}
+
+a#download {
+    display: none;
+    margin-top: 20px;
+    color: #80cbc4;
+    text-decoration: underline;
+}
+
+/* ---------- INSTRUCTIONS SECTION ---------- */
+#instructions {
+    background: rgba(20, 10, 40, 0.6);
+    border: 1px solid #4a0072;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgba(74,0,114,0.3);
+}
+
+#instructions h2 {
+    color: #9575cd;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#instructions ul {
+    list-style: square;
+    padding-left: 20px;
+    color: #d1c4e9;
+    font-size: 0.95em;
+}
+
+/* ---------- FORM AREA ---------- */
+#form-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(15, 8, 35, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #3d0066;
+    box-shadow: 0 0 20px rgba(80,0,150,0.3);
+}
